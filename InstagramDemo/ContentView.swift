@@ -19,7 +19,7 @@ struct ContentView: View {
                 Post()
                 Post(avatar: "profile", name: "Willie Yam", image: "dog", description: "Sundays with Sunny")
             }
-            
+            TabBar()
             
         }
     }

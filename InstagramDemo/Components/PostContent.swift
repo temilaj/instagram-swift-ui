@@ -36,5 +36,6 @@ struct PostContent: View {
 struct PostContent_Previews: PreviewProvider {
     static var previews: some View {
         PostContent()
+            .preferredColorScheme(.dark)
     }
 }
