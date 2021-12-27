@@ -19,6 +19,7 @@
 		1254A4AD2772ACEB00C358FE /* PostContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1254A4AC2772ACEB00C358FE /* PostContent.swift */; };
 		1254A4AF2772AF5900C358FE /* PostFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1254A4AE2772AF5900C358FE /* PostFooter.swift */; };
 		1254A4B32772B34600C358FE /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1254A4B22772B34600C358FE /* TabBar.swift */; };
+		12990E5B2777CD20003B5243 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12990E5A2777CD20003B5243 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		1254A4AC2772ACEB00C358FE /* PostContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostContent.swift; sourceTree = "<group>"; };
 		1254A4AE2772AF5900C358FE /* PostFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostFooter.swift; sourceTree = "<group>"; };
 		1254A4B22772B34600C358FE /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		1295C3052779579C00D988B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		12990E5A2777CD20003B5243 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +58,7 @@
 				1254A48F2772A15800C358FE /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		1254A48F2772A15800C358FE /* Products */ = {
 			isa = PBXGroup;
@@ -67,6 +71,8 @@
 		1254A4902772A15800C358FE /* InstagramDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1295C3052779579C00D988B5 /* Info.plist */,
+				12990E592777CD10003B5243 /* Views */,
 				1254A49F2772AAAB00C358FE /* Components */,
 				1254A4912772A15800C358FE /* InstagramDemoApp.swift */,
 				1254A4932772A15800C358FE /* ContentView.swift */,
@@ -105,6 +111,14 @@
 				1254A4B22772B34600C358FE /* TabBar.swift */,
 			);
 			path = Navigation;
+			sourceTree = "<group>";
+		};
+		12990E592777CD10003B5243 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				12990E5A2777CD20003B5243 /* Home.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +194,7 @@
 				1254A4A72772AB5D00C358FE /* Header.swift in Sources */,
 				1254A4942772A15800C358FE /* ContentView.swift in Sources */,
 				1254A4922772A15800C358FE /* InstagramDemoApp.swift in Sources */,
+				12990E5B2777CD20003B5243 /* Home.swift in Sources */,
 				1254A4A92772ABBD00C358FE /* Post.swift in Sources */,
 				1254A4AF2772AF5900C358FE /* PostFooter.swift in Sources */,
 				1254A4A12772AAC200C358FE /* Story.swift in Sources */,
@@ -320,6 +335,7 @@
 				DEVELOPMENT_TEAM = 44YT3B4LXK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InstagramDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -349,6 +365,7 @@
 				DEVELOPMENT_TEAM = 44YT3B4LXK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InstagramDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

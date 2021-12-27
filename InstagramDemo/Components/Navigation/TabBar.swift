@@ -12,22 +12,35 @@ struct TabBar: View {
         VStack(spacing: 0.0) {
             Divider()
             
-            HStack() {
-                Image("home")
-                Spacer()
+            TabView() {
+                Home()
+                    .tabItem {
+                        Image("home")
+                    }
+                
                 Image("search")
-                Spacer()
+                    .tabItem{
+                        Image("search")
+                    }
+                
                 Image("reels")
-                Spacer()
+                    .tabItem{
+                        Image("reels")
+                    }
                 Image("shop")
-                Spacer()
+                    .tabItem{
+                        Image("shop")
+                    }
+                
                 Image("profile")
                     .resizable()
                     .frame(width: 21, height: 21)
                     .cornerRadius(50)
+                    .tabItem{
+                        Image("tab-profile")
+                            .cornerRadius(50)
+                    }
             }
-            .padding(.horizontal, 25)
-            .padding(.top, 10)
         }
     }
 }
